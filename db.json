@@ -1,0 +1,55 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "yash ",
+      "lastName": "tiwary",
+      "email": "ytiwary15@gmail.com",
+      "mobile": "8507385480",
+      "salary": "70000"
+    },
+    {
+      "id": 2,
+      "firstName": "himanshu",
+      "lastName": "Tiwary",
+      "email": "hyt@gmail.com",
+      "mobile": "7654321090",
+      "salary": "700000"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "Yash Tiwary",
+      "email": "ytiwary15@gmail.com",
+      "password": "yash@1234",
+      "mobile": "8507385480",
+      "address": "Banglore",
+      "dob": "25sep1999",
+      "id": 1
+    },
+    {
+      "fullname": "Mitanshu tiwary",
+      "email": "mitanshutiwary@gmail.com",
+      "password": "mitanshu123",
+      "mobile": "9708538120",
+      "address": "banglore",
+      "dob": "16may1990",
+      "id": 2
+    },
+    {
+      "fullname": "taniya",
+      "email": "kupoosion@gmail.com",
+      "password": "tanya123",
+      "mobile": "8901234234",
+      "address": "chakuliya",
+      "dob": "19/05/2001",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "myData": [
+    {}
+  ]
+}

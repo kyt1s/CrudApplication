@@ -1,0 +1,30 @@
+<nav class="navbar">
+  <div class="container-fluid">
+    <h1 style="color: white;">Registered Users</h1>
+    <div class="btn d-flex">
+      <button routerLink="/home" class="btn btn-primary mx-6">Home</button>
+    </div>
+  </div>
+</nav>
+<table class="table mt-3">
+  <thead>
+    <tr>
+      <th scope="col"> User Id </th>
+      <th scope="col"> Full Name </th>
+      <th scope="col"> Email </th>
+      <th scope="col"> Mobile </th>
+      <th scope="col"> Address </th>
+      <th scope="col"> Dob </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of userlistData">
+      <td>{{row.id}}</td>
+      <td>{{row.fullname}}</td>
+      <td>{{row.email}}</td>
+      <td>{{row.mobile}}</td>
+      <td>{{row.address}}</td>
+      <td>{{row.dob}}</td>
+    </tr>
+  </tbody>
+</table>
